@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   Deploy:
-    uses: shivanisemwal/sitecontent/.github/workflows/makefile.yml@main
+    uses: shivanisemwal/sitecontent/.github/workflows/makefile.yml@c3df11d7aaf06089ab7e071b740fc53d2bda9c5a
     permissions:
       contents: read
       pages: write
